@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sandy_chandra_19411052/ui/login.dart';
+import 'package:sandy_chandra_19411052/ui/startup.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,8 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const loginview()
+        debugShowCheckedModeBanner: false,
+        home: StartUp()
     );
   }
 }
